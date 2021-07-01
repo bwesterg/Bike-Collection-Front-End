@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <section>
+      <section className="bikes">
         {
           bikes.map(bike => {
             return (
@@ -47,7 +47,6 @@ function App() {
                 <h3>Manufactured in: {bike.origin}</h3>
                 <h3>Frame Material: {bike.material}</h3>
                 <h3>Discipline: {bike.discipline}</h3>
-
               </div>
             )
           })
