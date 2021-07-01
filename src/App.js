@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 import './App.css';
 
+import BikesSection from './containers/bikesSection/BikesSection';
+
 function App() {
 
   const [bikes, setBikes] = useState([
@@ -37,22 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <section className="bikes">
-        {
-          bikes.map(bike => {
-            return (
-              <div key={bike.name} className="bike-card">
-                <img src={bike.image} alt={bike.name} />
-                <h2>Manufacturer: {bike.name}</h2>
-                <h3>Manufactured in: {bike.origin}</h3>
-                <h3>Frame Material: {bike.material}</h3>
-                <h3>Discipline: {bike.discipline}</h3>
-              </div>
-            )
-          })
-        }
-      </section>
-     
+      <BikesSection bikes={bikes}/>
     </div>
   );
 }
