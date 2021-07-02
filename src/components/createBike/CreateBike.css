@@ -1,9 +1,10 @@
-.create-dinosaur {
+.create-bike {
     padding: 1rem;
 }
 
 .create-bike input {
     margin-right: 0.5rem;
+    border-radius: 2px;
 }
 
 .create-bike input[type="submit"] {
