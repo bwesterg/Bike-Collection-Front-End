@@ -9,9 +9,12 @@ function Main({ bikes, setBikes }) {
 
     const [isFormShowing, setIsFormShowing] = useState(true);
 
+    const hideFormClass = isFormShowing ? 'hide-form' : '';
+
     return (
         <main>
             <button 
+                className={`${hideFormClass} toggle-create-bike`}
                 onClick={() => setIsFormShowing(!isFormShowing)}
             >
                     {isFormShowing ? 'HIDE FORM' : 'ADD NEW BIKE'}

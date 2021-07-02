@@ -1,3 +1,23 @@
 main {
     padding: 2rem 0;
 }
+
+.toggle-create-bike {
+    margin-left: 1rem;
+    background-color: rgb(96, 209, 96);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+.toggle-create-bike:hover {
+    background-color: rgb(130, 216, 130);
+}
+
+.hide-form {
+    background-color: rgb(232, 144, 144);
+}
+
+.hide-form:hover {
+    background-color: rgb(229, 157, 157);
+}
