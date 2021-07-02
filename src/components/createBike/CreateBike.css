@@ -1,0 +1,16 @@
+.create-dinosaur {
+    padding: 1rem;
+}
+
+.create-bike input {
+    margin-right: 0.5rem;
+}
+
+.create-bike input[type="submit"] {
+    background-color: rgb(96, 209, 96);
+    cursor: pointer;
+}
+
+.create-bike input[type="submit"]:hover {
+    background-color: rgb(130, 216, 130);
+}
