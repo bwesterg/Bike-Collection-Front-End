@@ -23,7 +23,6 @@ function App() {
   //   }
   // }
 
-  //testing 123, trying to discern why github origin pull isn't working
 
   const byName = (a, b) => a.name.localeCompare(b.name);
 
