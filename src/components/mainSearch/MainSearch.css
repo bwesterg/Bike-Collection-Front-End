@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.searching {
+    font-family: Dosis;
+    color: blue;
+}
+
+.searching input {
+    font-family: Dosis;
+}
