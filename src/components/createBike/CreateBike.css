@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+
 .create-bike {
     padding: 1rem;
 }
@@ -5,13 +8,16 @@
 .create-bike input {
     margin-right: 0.5rem;
     border-radius: 2px;
+    font-family: Dosis;
 }
 
 .create-bike input[type="submit"] {
     background-color: rgb(96, 209, 96);
     cursor: pointer;
+    font-family: Dosis;
 }
 
 .create-bike input[type="submit"]:hover {
     background-color: rgb(130, 216, 130);
+    font-family: Dosis;
 }

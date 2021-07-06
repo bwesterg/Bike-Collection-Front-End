@@ -13,17 +13,6 @@ function App() {
 
   const [bikes, setBikes] = useState([]);
 
-  // const byName = (a, b) => {
-  //   if (a.name < b.name) {
-  //     return -1;
-  //   } else if (a.name > b.name) {
-  //     return 1;
-  //   } else {
-  //     return 0;
-  //   }
-  // }
-
-
   const byName = (a, b) => a.name.localeCompare(b.name);
 
   const getBikes = () => {
